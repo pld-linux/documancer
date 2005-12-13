@@ -1,4 +1,5 @@
 Summary:	Programmer's documentation reader
+Summary(pl):	Czytnik dokumentacji programisty
 Name:		documancer
 Version:	0.2.6
 Release:	0.1
@@ -8,11 +9,16 @@ Source0:	http://dl.sourceforge.net/documancer/%{name}-%{version}.tar.gz
 # Source0-md5:	f570655370c232a2947699258fc6fae0
 URL:		http://documancer.sourceforge.net/
 Requires:	python-wxPython
-requires:	wxMozilla
+Requires:	wxMozilla
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Documancer is programmer's documentation reader with very fast fulltext searching.
+Documancer is programmer's documentation reader with very fast
+fulltext searching.
+
+%description -l pl
+Documancer to czytnik dokumentacji programisty z bardzo szybkim
+wyszukiwaniem pe³notekstowym.
 
 %prep
 %setup -q
