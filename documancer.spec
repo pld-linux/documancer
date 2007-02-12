@@ -1,5 +1,5 @@
 Summary:	Programmer's documentation reader
-Summary(pl):	Czytnik dokumentacji programisty
+Summary(pl.UTF-8):   Czytnik dokumentacji programisty
 Name:		documancer
 Version:	0.2.6
 Release:	0.1
@@ -16,9 +16,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Documancer is programmer's documentation reader with very fast
 fulltext searching.
 
-%description -l pl
+%description -l pl.UTF-8
 Documancer to czytnik dokumentacji programisty z bardzo szybkim
-wyszukiwaniem pe≥notekstowym.
+wyszukiwaniem pe≈Çnotekstowym.
 
 %prep
 %setup -q
