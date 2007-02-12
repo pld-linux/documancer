@@ -1,5 +1,5 @@
 Summary:	Programmer's documentation reader
-Summary(pl.UTF-8):   Czytnik dokumentacji programisty
+Summary(pl.UTF-8):	Czytnik dokumentacji programisty
 Name:		documancer
 Version:	0.2.6
 Release:	0.1
